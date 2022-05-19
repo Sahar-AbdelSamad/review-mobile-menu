@@ -1,6 +1,33 @@
-# curriculum-cr-training-mobile-menu
+# Portfolio for review
 
+> This is a Desktop and Mobile version of my Portfolio Website.
 
-This repo host an initial code for the tasks performed during the Code Reviewers training.
+## Below is a screenshot showing my Portfolio
+![gif](Portfolio.png)
+## Built With
 
-Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEViw3QasuJLPLVT/Microverse-Student-Potfolio-Templates-Main?node-id=1%3A1471).
+- HTML
+- CSS
+- VSCode
+
+## Author
+
+👤 **Sahar Abdel Samad**
+
+- GitHub: [@sahar-abdelsamad](https://github.com/Sahar-AbdelSamad)
+- Twitter: [@abdelsamadsahar](https://twitter.com/AbdelSamadSahar)
+- LinkedIn: [abdel-samad-sahar](https://www.linkedin.com/in/abdel-samad-sahar-353977223/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Sahar-AbdelSamad/Portfolio-setup-and-mobile-version-skeleton/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
