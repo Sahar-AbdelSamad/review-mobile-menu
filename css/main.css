@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -49,6 +50,42 @@ header {
   width: 18px;
   height: 12px;
   color: white;
+}
+
+#mobile-nav {
+  background-color: #3c3a39;
+  display: none;
+  height: 100vh;
+  position: fixed;
+  inset: 0 0 0 0;
+  z-index: 10;
+}
+
+#mobile-nav > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin: 0 1rem;
+}
+
+.menu-close {
+  color: #67798e;
+  position: absolute;
+  right: 0;
+  margin: 0 1rem;
+}
+
+.nav-link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  color: #fff;
+  padding: 15px;
+  border: 1px solid transparent;
+  transition: 350ms;
 }
 
 main {
@@ -451,18 +488,6 @@ textarea {
   #desktop-nav ul {
     display: flex;
     margin-right: 10vw;
-  }
-
-  .nav-link {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 20px;
-    color: #fff;
-    padding: 15px;
-    border: 1px solid transparent;
-    transition: 350ms;
   }
 
   .nav-link:hover {
